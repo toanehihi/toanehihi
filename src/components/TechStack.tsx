@@ -71,9 +71,8 @@ export default function TechStack() {
       <div className="relative max-w-5xl mx-auto px-6">
         {/* Section header */}
         <div
-          className={`mb-14 transition-all duration-700 ${
-            inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-          }`}
+          className={`mb-14 transition-all duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+            }`}
         >
           <div className="flex items-center gap-4 mb-4">
             <span className="font-mono text-xs text-[var(--accent)] tracking-widest uppercase">
@@ -95,11 +94,10 @@ export default function TechStack() {
           {TECH_STACK.map((category, ci) => (
             <div
               key={category.title}
-              className={`transition-all duration-700 ${
-                inView
+              className={`transition-all duration-700 ${inView
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-6"
-              }`}
+                }`}
               style={{ transitionDelay: `${150 + ci * 100}ms` }}
             >
               <h3 className="text-xs font-mono text-[var(--text-tertiary)] uppercase tracking-[0.2em] mb-4">
@@ -113,11 +111,7 @@ export default function TechStack() {
                   >
                     {tech.icon ? (
                       <img
-                        src={
-                          tech.icon === "milvus" || tech.icon === "huggingface" || tech.icon === "onnx"
-                            ? `https://cdn.simpleicons.org/${tech.icon === "milvus" ? "milvus" : tech.icon === "huggingface" ? "huggingface" : "onnx"}/${tech.color.replace("#", "")}`
-                            : `https://api.iconify.design/logos:${tech.icon}.svg`
-                        }
+                        src={`/icons/tech/${tech.icon}.svg`}
                         alt={tech.name}
                         className="w-6 h-6 object-contain"
                       />

@@ -73,7 +73,7 @@ export default function Hero() {
             <div className={`flex items-center gap-6 transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
               <div className="flex gap-3">
                 {[
-                  { icon: <GitHubIcon />, href: "https://github.com/toanehihi", label: "GitHub" },
+                  { icon: <GitHubIcon />, href: "https://github.coam/toanehihi", label: "GitHub" },
                   { icon: <LinkedInIcon />, href: "https://www.linkedin.com/in/hotoan2904/", label: "LinkedIn" },
                   { icon: <MailIcon />, href: "mailto:hctoan.dev@gmail.com", label: "Email" },
                 ].map((link) => (
