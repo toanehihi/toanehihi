@@ -57,7 +57,6 @@ async function download(url, dest) {
 }
 
 async function main() {
-  console.log('🚀 Starting icon localization...');
   
   for (const icon of ICONS) {
     let url;
@@ -70,13 +69,11 @@ async function main() {
     const dest = path.join(OUTPUT_DIR, `${icon.name}.svg`);
     try {
       await download(url, dest);
-      console.log(`✅ Downloaded: ${icon.name}.svg`);
     } catch (err) {
       console.error(`❌ Error downloading ${icon.name}:`, err.message);
     }
   }
 
-  console.log('\n✨ All icons localized to public/icons/tech/');
 }
 
 main();
