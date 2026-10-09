@@ -1,4 +1,10 @@
+<a href="https://wakatime.com/@fc05717b-168a-4ca3-ba2a-970e2d8d681f">
+  <img src="https://wakatime.com/badge/user/fc05717b-168a-4ca3-ba2a-970e2d8d681f.svg" alt="wakatime" />
+</a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=toanehihi&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
 
+<br/>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
